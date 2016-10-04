@@ -52,3 +52,17 @@ brew install openbr
 ### Face Database
 ### Scraper?
 ### Sniffer?
+
+
+# Reference Links
+
+##### facial recog stuff
+* [save face to database](https://stackoverflow.com/questions/33140178/is-there-any-node-js-library-for-offline-facial-recognition-identification)
+* [compare faces](https://stackoverflow.com/questions/21647573/use-opencv-and-node-to-compare-2-faces-for-similarity)
+* [facebook photo tag clone](https://www.sitepoint.com/face-detection-nodejs-opencv/)
+* [with openBR](http://openbiometrics.org/docs/tutorials/#face-recognition)
+* [raspi cat tracker](http://www.girliemac.com/blog/2015/12/25/kittycam-raspberrypi-camera-cat-face-recog-nodejs/)
+
+
+##### general tech cheat sheets
+* [markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)

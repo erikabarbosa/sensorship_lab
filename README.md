@@ -49,4 +49,6 @@ brew install openbr
 # Laboratory Usage
 ### theHarvester
 ### Face Tracker / Obfuscator
+### Face Database
 ### Scraper?
+### Sniffer?

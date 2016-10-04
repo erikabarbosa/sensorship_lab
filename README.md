@@ -12,19 +12,39 @@ brew install numpy scipy etc etc etc
 ```
 
 ### Git
+```
+brew install git
+```
 
 ### Node
+```
+brew install node
+```
 
 ### Python
-##### pip
-##### pyenv
+Brew will also install `python`, a programming language, and `pip`, python's package manager.
 
-### Ruby
-##### rbenv
+##### pip
+```
+brew install python
+```
+
+If this doesn't work, we can use the system's `easy_install` with:
+```
+sudo easy_install pip
+```
 
 ### Open CV
+```
+brew tap homebrew/science
+brew install opencv3 --HEAD
+```
 
 ### Open BR
+Using the already "tapped" `homebrew/science` package, run
+```
+brew install openbr
+```
 
 # Laboratory Usage
 ### theHarvester

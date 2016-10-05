@@ -1,5 +1,8 @@
 # sensorship_lab
-Repo for COLED conference Sensorship Lab.
+Our proposed lab brings together our respective work in digital ethnography and design interventions, which explore surveillance, choreographies of power and the making of a policed state. Our lab is a space for mutual provocations between technologies of surveying and ethnographic ways of seeing. This provides ethnographic practitioners a glimpse into automated investigation techniques employed by the state. These techniques are often used to inform researchers, journalists, and activists seeking to witness events in the digital age. How can ethnographers engage these tools to augment an ethnographic output? How can ethnographers engage these tools to create collaborative outputs with their interlocutors and communities? 
+
+Our proposal will take the form of a makerspace / design lab wherein ongoing technology training sessions will be held for ethnographic practitioners interested in getting hands on experience with the tools and techniques of surveillance. This provides ethnographic practitioners a glimpse into automated investigation techniques employed by the state [oppressors]. These techniques are often used to inform researchers, journalists, and activists seeking to witness events in the digital age. How can ethnographers engage these tools to augment an ethnographic output? How can ethnographers engage these tools to create collaborative outputs with their interlocutors and communities? 
+
 
 ### Brew
 Install homebrew for OS X

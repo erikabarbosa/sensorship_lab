@@ -46,12 +46,43 @@ Using the already "tapped" `homebrew/science` package, run
 brew install openbr
 ```
 
+### Tweet Tracking
+```
+gem install t
+```
+
+```
+t authorize
+```
+
+```
+t accounts
+```
+
+```
+t set active <user> <token>
+```
+
+```
+t followers <user> > followlist.txt
+```
+
+### waybackpack
+```
+pip install waybackpack
+```
+
+```
+waybackpack <url> --list
+```
+
 # Laboratory Usage
 ### theHarvester
 ### Face Tracker / Obfuscator
 ### Face Database
 ### Scraper?
 ### Sniffer?
+### TweetTracking
 
 
 # Reference Links

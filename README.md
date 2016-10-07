@@ -96,6 +96,7 @@ waybackpack <url> --list
 * [facebook photo tag clone](https://www.sitepoint.com/face-detection-nodejs-opencv/)
 * [with openBR](http://openbiometrics.org/docs/tutorials/#face-recognition)
 * [raspi cat tracker](http://www.girliemac.com/blog/2015/12/25/kittycam-raspberrypi-camera-cat-face-recog-nodejs/)
+* [track those eyes](http://andrevenancio.com/eye-blink-detection/)
 
 ##### scrapers
 * [harvester (crawler)](https://github.com/TransparencyToolkit/Harvester)

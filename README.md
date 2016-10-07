@@ -81,7 +81,7 @@ waybackpack <url> --list
 
 # Laboratory Usage
 ### theHarvester
-### Face Tracker / Obfuscator
+### [Face Tracker / Obfuscator](https://auduno.github.io/clmtrackr/docs/reference.html)
 ### Face Database
 ### Scraper?
 ### Sniffer?

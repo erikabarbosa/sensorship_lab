@@ -193,94 +193,7 @@ html,body{
   // text-rendering: geometricPrecision !important;
 }
 
-//
-// LOGIN CARDS
-//
 
-.card {
-  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
-}
-
-.card {
-  margin: 0 !important;
-  width: 50%;
-  box-sizing: border-box;
-  border-radius: 2px;
-  background-clip: padding-box;
-  @include centerer;
-  .form-group {
-    margin: 0;
-    padding: auto 0;
-    [class^=col-] {
-      padding: auto 0;
-    }
-    label {
-      padding: 5px 0;
-    }
-    input {
-      border: 0;
-      padding: 0;
-      box-shadow: none;
-      border-bottom: 1px solid #000000 !important;
-    }
-    // input [class^=col-] {
-    //   padding: inherit 0;
-    // }
-  }
-}
-.card span.card-title {
-    color: #fff;
-    font-size: 24px;
-    font-weight: 300;
-    text-transform: uppercase;
-    h2 {
-      margin: 0;
-    }
-}
-
-.card .card-image {
-  position: relative;
-  overflow: hidden;
-}
-.card .card-image img {
-  border-radius: 2px 2px 0 0;
-  background-clip: padding-box;
-  position: relative;
-  z-index: -1;
-}
-.card span.card-title {
-  // position: absolute;
-  bottom: 0;
-  left: 0;
-  // padding: 16px;
-}
-.card .card-content {
-  padding: 30px;
-  border-radius: 0 0 2px 2px;
-  background-clip: padding-box;
-  box-sizing: border-box;
-}
-.card .card-content p {
-  margin: 0;
-  color: inherit;
-}
-.card .card-content span.card-title {
-  line-height: 48px;
-}
-.card .card-action {
-  border-top: 1px solid rgba(160, 160, 160, 0.2);
-  padding: 16px 30px;
-}
-.card .card-action a {
-  color: #ffab40;
-  margin-right: 16px;
-  transition: color 0.3s ease;
-  text-transform: uppercase;
-}
-.card .card-action a:hover {
-  color: #ffd8a6;
-  text-decoration: none;
-}
 
 //
 // NAVIGATION
@@ -327,6 +240,8 @@ main {
 
 
 
+
+
 //
 //
 //
@@ -342,21 +257,8 @@ main {
 //
 
 
-// Extra large devices (large desktops)
-// No media query since the extra-large breakpoint has no upper bound on its width
-
-// Large devices (desktops, less than 75em)
-@media (max-width: 74.9em) {}
-
-// Medium devices (tablets, less than 62em)
-@media (max-width: 61.9em) {}
-
-// Small devices (landscape phones, less than 48em)
-@media (max-width: 47.9em) {
-  .card {
-    width: 90%;
-  }
-}
-
-// Extra small devices (portrait phones, less than 34em)
-@media (max-width: 33.9em) {}
+@include media-breakpoint-down(xl) {}
+@include media-breakpoint-down(lg) {}
+@include media-breakpoint-down(md) {}
+@include media-breakpoint-down(sm) {}
+@include media-breakpoint-down(xs) {}

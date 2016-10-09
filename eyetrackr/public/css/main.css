@@ -7668,7 +7668,9 @@ canvas {
 
 #content {
   text-align: center;
-  visibility: hidden; }
+  visibility: hidden;
+  height: 100%;
+  width: 100%; }
 
 body.active .holder:before,
 body.active .holder:after {

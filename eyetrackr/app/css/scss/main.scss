@@ -220,6 +220,21 @@ canvas {
     border: 1px solid black;
 }
 
+// #originalCanvas {
+//   width: 100%;
+//   height: 100%;
+//   position: absolute;
+//   z-index: -1;
+// }
+//
+// #trackerCanvas {
+//   // width: 50%;
+//   // height: auto;
+//   position: absolute;
+//   z-index: -1;
+// }
+
+
 .holder {
     position: relative;
     width: 100%;
@@ -248,6 +263,8 @@ canvas {
 #content {
     text-align: center;
     visibility: hidden;
+    height: 100%;
+    width: 100%;
 }
 
 body.active .holder:before,

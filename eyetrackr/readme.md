@@ -1,4 +1,4 @@
-#FACEPLATE
+#EYETRACKER
 
 A really, really stupid boilerplate for bootstrapping and scaffolding new front end projects. Snap it onto an existing `rails`, `flask`, `whatever` back end, and AJAX the rest.
 

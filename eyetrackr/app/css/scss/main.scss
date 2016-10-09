@@ -191,13 +191,14 @@ html,body{
   background-color: #ffffff;
   // overflow: auto;
   // text-rendering: geometricPrecision !important;
+  text-align: center;
 }
-
 
 
 //
 // NAVIGATION
 //
+
 
 header {}
 
@@ -215,9 +216,49 @@ main {
   padding-bottom: 50px;
 }
 
-.container {
-  // margin-top: 10%;
+canvas {
+    border: 1px solid black;
 }
+
+.holder {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #f9f9f9;
+}
+
+.holder:before {
+    content: attr(data-title);
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    visibility: visible;
+}
+
+.holder:after {
+    content: 'click to activate';
+    position: absolute;
+    top: 55%;
+    left: 0;
+    width: 100%;
+    visibility: visible;
+}
+
+#content {
+    text-align: center;
+    visibility: hidden;
+}
+
+body.active .holder:before,
+body.active .holder:after {
+    visibility: hidden;
+}
+
+body.active #content {
+    visibility: visible;
+}
+
 
 //
 // FOOTER
@@ -240,8 +281,6 @@ main {
 
 
 
-
-
 //
 //
 //
@@ -257,8 +296,8 @@ main {
 //
 
 
-@include media-breakpoint-down(xl) {}
-@include media-breakpoint-down(lg) {}
-@include media-breakpoint-down(md) {}
-@include media-breakpoint-down(sm) {}
 @include media-breakpoint-down(xs) {}
+@include media-breakpoint-down(sm) {}
+@include media-breakpoint-down(md) {}
+@include media-breakpoint-down(lg) {}
+@include media-breakpoint-down(xl) {}

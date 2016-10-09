@@ -32,44 +32,34 @@
 <!--************** BODY BORDER **************-->
 <body>
 	<!--************** CONTENT **************-->
-	<header role="banner">
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="#"><strong>cool</strong>Co.</a>
-            </div>
-            <div id="navbar" class="navbar-collapse collapse">
-              <ul class="nav navbar-nav">
-                <li class="active"><a href="#">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-              </ul>
-              <ul class="nav navbar-nav navbar-right">
-                <li class="dropdown">
-                  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Template <span class="caret"></span></a>
-                  <ul class="dropdown-menu">
-                    <li><a href="pages/card.html">Card</a></li>
-                    <li><a href="pages/signin.html">Sign In</a></li>
-                    <li class="active"><a href="#">Boilerplate <span class="sr-only">(current)</span></a></li>
-                  </ul>
-                </li>
-              </ul>
-            </div><!--/.nav-collapse -->
-        </nav>
-	</header>
 
-	<main role="main" class="navbar-clear">
-    <div class="holder" data-title="Request Webcam">
-      <div id="content"></div>
-    </div>
-	</main>
+  <div class="holder" data-title="Correlation">
+      <div id="content">
+          <canvas id="originalCanvas" width=320 height=240></canvas>
+          <canvas id="trackerCanvas" width=320 height=240></canvas>
+          <br />
+          <canvas id="eyeCanvas" width=80 height=60></canvas>
+          <canvas id="bwCanvas" width=80 height=60></canvas>
+          <canvas id="thCanvas" width=80 height=60></canvas>
+          <br />
+          <canvas id="oldCanvas" width=80 height=60></canvas>
+          <canvas id="curCanvas" width=80 height=60></canvas>
+          <canvas id="cCanvas" width=80 height=60></canvas>
+          <br />
+          <p id="correlationPercentage">
+              0%
+          </p>
+          <p id="blinksDetected">
+              0
+          </p>
+      </div>
+  </div>
 
-	<footer class="footer">
+
+
+
+
+	<!-- <footer class="footer">
 		<div class="container">
             <div class="row">
             <div class="col-xs-4">
@@ -84,7 +74,8 @@
             </div>
             </div>
         </div>
-	</footer>
+	</footer> -->
+
 	<!--************** CONTENT **************-->
 
   <!--************** JAVASCRIPTS **************-->
@@ -97,6 +88,13 @@
   <script type="text/javascript">
   </script>
   <!--************** JQUERY **************-->
+  <script src="js/vendor/model_pca_10_svm.js"></script>
+  <script src="js/vendor/clmtrackr.min.js"></script>
+  <script src="js/vendor/canvasfilters.js"></script>
+  <script src="js/vendor/webcam.js"></script>
+  <!-- <script src="js/vendor/threshold.js"></script> -->
+  <!-- <script src="js/vendor/correlation.js"></script> -->
+  <script src="js/vendor/update.js"></script>
   <script src="js/main.js"></script>
   <!--************** JAVASCRIPTS **************-->
 </body>

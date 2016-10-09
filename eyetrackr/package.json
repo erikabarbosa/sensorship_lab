@@ -8,9 +8,9 @@
   },
   "author": "Marcus Guttenplan",
   "license": "MIT",
-  "repository" :
-  { "type" : "git"
-    , "url" : "https://github.com/marcusguttenplan/faceplate.git"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marcusguttenplan/faceplate.git"
   },
   "devDependencies": {
     "browser-sync": "^2.12.8",
